@@ -1,5 +1,5 @@
 
-/* regole generali */.
+/* regole generali */
 *{
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@ body{
 header{
   height: 60px;
   margin:20px 30px;
-  background-image: url(../img/Logo.png);
+  background-image: url(img/logo.png);
   background-repeat: no-repeat;
 
   }
@@ -22,6 +22,7 @@ header{
     display: inline-block;
     padding-left: 60px;
     font-size: 40px;
+
     }
 
 
@@ -31,19 +32,15 @@ main{
   width: 100%;
   margin: auto;
   background-color: #F6F8F9;
-  padding-top: 30px
+  padding-top: 30px;
 
 }
 
 nav, section{
-  padding-left: 65px;
-}
-
-
-nav, section, footer{
   width: 70%;
   margin:auto;
   background-color:white;
+  padding-left: 60px;
 }
 
 /* regole nav */
@@ -82,35 +79,53 @@ section{
 
 }
 
-.voci{
-  display: block;
+
+.listadis{
+  list-style-type: none;
+  padding-left: 20px;
+  /* display:inline-block; */
+
+}
+
+li{
   padding: 10px;
+
+}
+
+.editorial, .q1, .recruiting, .mobile, .mobile, .sales, .website{
+
+  border-radius: 12px;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+
+
+.tick, .cross{
+
+  border-radius: 50%;
+  padding-left: 3px;
 
 }
 
 .tick{
   border: 2px solid green;
-  border-radius: 50%;
-  padding-left: 3px;
   color: green;
   margin-right: 10px;
 }
 
 .cross{
   border: 2px solid red;
-  border-radius: 50%;
-  padding-left: 3px;
   color: red;
   margin-right: 10px;
 }
 
 .editorial{
-  border-radius: 18px;
   border-color: #45ABEA;
   background-color:#45ABEA;
-  color: white;
-  padding: 7px;
-  margin: 7px;
+
 }
 
 
@@ -118,49 +133,34 @@ section{
 .q1{
   background-color: #9C72E4;
   border-color: #9C72E4;
-  border-radius: 18px;
-  color: white;
-  padding: 7px;
-  margin: 7px;
+
 }
 
 .recruiting{
   background-color:  #64C0A9;
   border-color: #64C0A9;
-  border-radius: 18px;
-  color: white;
-  padding: 7px;
-  margin: 7px;
+
 }
 
 
 .mobile{
   background-color: #F29E33;
   border-color: #F29E33;
-  border-radius: 18px;
-  color: white;
-  padding: 7px;
-  margin: 7px;
+
 }
 
 
 .website{
   background-color: #D863A1;
   border-color:#D863A1;
-  border-radius: 18px;
-  color: white;
-  padding: 7px;
-  margin: 7px;
+
 }
 
 
 .sales{
 background-color: #B0C926;
 border-color: #B0C926;
-border-radius: 18px;
-color: white;
-padding: 7px;
-margin: 7px;
+border-radius: 12px;
 
 
 }
