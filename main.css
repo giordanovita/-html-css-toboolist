@@ -79,11 +79,14 @@ section{
 
 }
 
+.listaprinc{
+ list-style-type: none;
+}
 
 .listadis{
   list-style-type: none;
-  padding-left: 20px;
-  /* display:inline-block; */
+  padding-top: 15px;
+
 
 }
 
